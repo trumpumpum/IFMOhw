@@ -1,0 +1,49 @@
+body {
+    background-size: auto;
+    background-image: url(../img/kamchatka.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: inherit;
+
+}
+
+.button {
+  background: rgb(255, 153, 0);
+  color: aliceblue;
+  margin: 3px;
+  padding: 3px 9px;
+  border-radius: 500px; 
+}
+
+.menu > ol > li {
+    display: inline-block;
+    padding: 8px;
+    
+
+    background: rgb(0, 255, 128);
+    border: solid 1px black;
+    color: white;
+    font-size: 1.3em;
+}
+
+menu:hover
+{
+    background: gray;
+}
+
+div { 
+    background: whitesmoke;
+}
+
+* {
+    opacity: 1;
+}
+
+.articles {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

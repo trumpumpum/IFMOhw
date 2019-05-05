@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!-- описание типа
+    документа -->
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" 
+              content="registration, sign up, This homework 2 was made by copy/paste 
+        from additional materials like presentations and etc">
+        <meta name="keywords"  
+              content="registration, sign up, Homework 2, ifmo cope, 
+        Second lesson, вырвиглазный дизайн">
+        <title>Sign up Page</title>
+        <!-- теги заголовка документа -->
+    </head>
+    <body>
+            <h1>Page 5 of 5 -- sign up</h1>
+    <div id="list">
+        <ol type="1">
+            <li><a href="index.html">First page of hw </a></li>
+            <li><a href="2 page.html">Second page of hw (3 links to photos on this page)</a></li>
+            <li><a href="3 page.html">Third page of hw </a></li>
+            <li><a href="autorization.html">Sign in</a></li>
+            <li>reserved</li>
+        </ol>
+    </div> 
+    <form autocomplete="on" name="SignUpForm">
+        <fieldset name="Sign up">
+            <legend>Sign up</legend>
+            
+            <fieldset name="Обязательные поля">
+            <legend>Обязательные поля</legend>
+            <p>
+                <label for="login">Введите Ваш логин: (От 3 до 25 символов)</label>
+                <input id=login type="text" required placeholder="Тапните сюда и введите логин" minlength="3" maxlength="25">
+                </p>
+            
+            <p>
+                <label for="email">Введите Ваш email: </label>
+                <input type="email" value="petrov@mail.ru" required>
+            </p>
+            
+            <p>
+                <label for="password">Введите Ваш пароль: (от 8 до 25 символов)</label>
+                <input type="password" required placeholder="сюда" minlength="8" maxlength="25">
+            </p>
+
+            <p>
+                <label for="password">Подтвердите Ваш пароль: </label>
+                <input type="password" required placeholder="и сюда" minlength="8" maxlength="25">
+            </p>
+            </fieldset>
+            
+
+            <fieldset name="Укажите о себе больше данных (опционально)">
+                <legend>Укажите о себе больше данных (опционально)</legend>
+                <p>
+                    <label for="avatar">Загрузите аватарку: </label>
+                    <input type="file" accept="image/*">
+                </p>
+
+                <p>
+                    <label for="dateofbirth">Укажите дату Вашего рождения: </label>
+                    <input type="date">
+                </p>
+
+                <p>
+                    <label><input name="gender" type="radio">Женский</label>
+                    <label><input name="gender" type="radio">Мужской</label>
+                </p>
+
+                <p>
+                    Откуда Вы про нас узнали?
+                </p>
+                <p>
+                        <select name="select" size="3" required="">
+                            <option label="" value="1">Реклама в тырнете</option>
+                            <option selected="" value="2">Подсказали знакомые</option>
+                            <option disabled="" value="3">Мы -- фсб</option>
+                        </select>
+                </p>
+
+                <p>
+                    <label>На сколько процентов Вы оцените удобство страницы регистрации от 0 до 100?</label>
+                    <input type="range" min="0" max="100">
+                </p>
+
+
+
+            </fieldset>
+            
+            <p>
+                <label for="submit"><a href=""></a></label>
+                <input type="submit" value="Зарегистрироваться">
+            </p>
+
+
+            <p>
+                <label for="reset"></a></label>
+                <input type="reset" value="Сбросить все данные">
+            </p>
+
+            <p>
+                    <label for="button"><a href="autorization.html"></a></label>
+                    <input type="button" value="Вы уже зарегистрированы?">
+            </p>
+            
+            
+        </fieldset>
+    </form>
+
+    <div>
+            <h2>обратная связь — <a href="https://t.me/gapess">t.me/gapess</a></h2>
+    </div>
+
+    
+
+</body>
+</html>
