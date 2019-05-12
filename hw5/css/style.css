@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    margin: 30px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    position: relative;
+}
+
+
+li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: auto;
+    position: relative;
+
+}
+
+a {
+    display: block;
+    margin: 3px;
+    padding: 15px;
+    background: #444444;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.flex-container {
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.drop-down {
+    display: none;
+    
+} 
+
+
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    background: #b9b9b9;
+    color: black;
+}
